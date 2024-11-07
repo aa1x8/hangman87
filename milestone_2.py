@@ -19,5 +19,14 @@ def get_player_guess():
     """Ask the user to input a single letter."""
     return input('Please enter a single letter: ')
 
+#ask user to input letter
+guess = input('Enter a single letter: ')
+
+#Create an if statement that checks if the length of the input is equal to 1 and the input is alphabetical.
+if len(guess) == 1 and guess.isalpha():
+    print('Good guess!')
+else:
+    print('Oops! That is not a valid input.')
+
 
 

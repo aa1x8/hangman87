@@ -125,5 +125,5 @@ def play_game(word_list):
         else:
             print('Congratulations, you won the game!')
             break
-word_list = ['apple', 'banana', 'cherry', 'peach', 'mango']
+word_list = ['pomegranate', 'mango', 'banana', 'apple', 'strawberries']
 play_game(word_list)
